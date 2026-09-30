@@ -19,7 +19,7 @@ export default function Work() {
   return (
     <section id="work" className="relative bg-[#090909]">
       <div className="mx-auto max-w-6xl px-5 md:px-10 py-14 md:py-20 border-t hairline">
-        <p className="label-mono text-[#989898]">02 — Proyectos</p>
+        <p className="label-mono text-[#989898]">01 — Proyectos</p>
         <RevealText
           lines={["TRABAJO", "SELECCIONADO"]}
           className="display mt-3 text-[11vw] md:text-[5.5vw] text-[#F5F5F0]"

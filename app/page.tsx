@@ -10,8 +10,8 @@ export default function Home() {
     <main className="relative bg-[#090909] text-[#F5F5F0] selection:bg-[#DDF247] selection:text-black">
       <Navbar />
       <Hero />
-      <About />
       <Work />
+      <About />
       <Services />
       <Contact />
     </main>

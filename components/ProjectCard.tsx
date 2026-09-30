@@ -4,7 +4,6 @@ import { useRef } from "react";
 import { ArrowUpRight } from "lucide-react";
 import type { Project } from "@/data/projects";
 import RevealText from "./RevealText";
-import TiltCard from "./TiltCard";
 import Webview from "./Webview";
 import { motion, useInView } from "motion/react";
 
@@ -64,9 +63,7 @@ export default function ProjectCard({ project }: { project: Project }) {
         </div>
       )}
 
-      <TiltCard>
-        <Webview project={project} />
-      </TiltCard>
+      <Webview project={project} />
 
       <div className="flex flex-wrap gap-1.5">
         {project.services.map((s) => (

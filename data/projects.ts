@@ -52,6 +52,8 @@ export const projects: Project[] = [
     solution:
       "Una experiencia web que combina promoción turística, presentación gastronómica y un sistema completo para gestionar las reservas desde un backoffice.",
     services: ["Diseño web", "Reservas", "Backoffice", "Gestión de citas", "Adaptable"],
+    website: "https://cooking-8943d.web.app/",
+    websiteLabel: "Visitar sitio",
     screenshot: "/shots/cartagena.png",
     theme: "warm",
   },

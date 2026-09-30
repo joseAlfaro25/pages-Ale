@@ -10,7 +10,7 @@ export default function About() {
 
   return (
     <section id="about" className="relative bg-[#090909] px-5 md:px-10 py-28 md:py-44 border-t hairline">
-      <p className="label-mono text-[#989898] mb-8 md:mb-12">01 — Sobre mí</p>
+      <p className="label-mono text-[#989898] mb-8 md:mb-12">02 — Sobre mí</p>
 
       <RevealText
         lines={[
